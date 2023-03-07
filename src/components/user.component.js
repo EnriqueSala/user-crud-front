@@ -193,7 +193,7 @@ class User extends Component {
             </form>
 
             <button
-              className="badge badge-danger mr-2"
+              className="badge text-bg-danger mr-2"
               onClick={this.deleteUser}
             >
               Delete
@@ -201,7 +201,7 @@ class User extends Component {
 
             <button
               type="submit"
-              className="badge badge-success"
+              className="badge text-bg-success"
               onClick={this.updateUser}
             >
               Update
