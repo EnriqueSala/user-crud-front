@@ -70,6 +70,9 @@ export default class UsersList extends Component {
         console.log(e);
       });
   }
+  why(){
+    window.alert("why would you do this? :(")
+  }
 
   searchFirstName() {
     UserDataService.findByFirstName(this.state.searchFirstName)
@@ -130,7 +133,7 @@ export default class UsersList extends Component {
 
           <button
             className="m-3 btn btn-sm btn-danger"
-            onClick={this.removeAllUsers}
+            onClick={this.why}
           >
             Remove All
           </button>
