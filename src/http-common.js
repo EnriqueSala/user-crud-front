@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export default axios.create({
-  baseURL: "//3.129.248.218:8080/crudUser/api",
+  baseURL: "https://back.jorgesala.site/crudUser/api",
   headers: {
     "Content-type": "application/json"
   },
